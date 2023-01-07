@@ -84,8 +84,48 @@
 }
 
 /*==========Hero Area End==========*/
+.hero-girl-area{
+    width: 100%;
+    height:100vh;
+    display: flex;
+}
+.hero-girl-right{
+    width: 100%;
+    background-image: url(images/girl.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    margin-right: 200px;
+}
+.hero-girl-left{
+    width: 100%;
+    margin: 180px 0 0 150px;
+    text-align: right;
+}
+.hero-girl-content{
+    width: 420px;
+}
+.hero-girl-content h2{
+    font-size: 26px;
+    color: #151414;
+    padding: 20px 0;
+    line-height: 30px;
 
-
+}
+.hero-girl-content p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #444343;
+}
+.hero-girl-content button{
+    color:#fff;
+    background-color: #005FAC;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/*==========Hero-girl Area End==========*/
 .plan-area{
     width: 100%;
     height: 300px;
