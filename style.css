@@ -83,6 +83,43 @@ text-align: right;
     line-height: 30px;
 }
 
+/*==========Hero Area End==========*/
+
+
+.plan-area{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.plan-area h2{
+    color: #151414;
+    font-size: 30px;
+    margin: 40px 0;
+}
+.plan-box{
+    display: flex;
+    margin: 0 250px;
+    justify-content: space-between;
+}
+.plan-box h3{
+    color: #151414;
+    margin: 10px 0;
+}
+.plan-box p{
+    color: #737272;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
