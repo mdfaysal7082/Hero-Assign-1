@@ -19,16 +19,15 @@ margin-top: 160px;
 margin-right: 150px;
 text-align: right;
 }
-.header-content h1, p{
-    color: #fff;
-}
 .header-content h1{
+    color: #fff;
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
     text-align: right;
 }
 .header-content p{
+    color: #fff;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -42,6 +41,51 @@ text-align: right;
     border: none;
     border-radius: 5px;
 }
+/*==========Header Area End==========*/
+
+.hero-area{
+    width: 100%;
+    height:100vh;
+    display: flex;
+}
+.hero-left{
+    width: 100%;
+    background-image: url(images/person.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-right: 40px;
+}
+.hero-right{
+    width: 100%;
+    margin: 180px 0 0 40px;
+}
+.hero-content{
+    width: 420px;
+}
+.hero-content h2{
+    font-size: 26px;
+    color: #151414;
+    padding: 20px 0;
+    line-height: 30px;
+
+}
+.hero-content p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #444343;
+}
+.hero-content ul li{
+    color: #444343;
+    list-style: none;
+    margin-left: -40px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+
 
 
 
